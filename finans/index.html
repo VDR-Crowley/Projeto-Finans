@@ -16,21 +16,17 @@
     <title>Finans - Finanças Pessoais</title>
   </head>
   <body>
-
-    
-
-      <header>
-      <nav class="navbar navbar-expand-sm navbar-light bg-warning">
-        <div class="container">
+    <header> <!-- Inicio cabeçalho -->
+      <nav class="navbar navbar-expand-sm navbar-light bg-warning"> <!-- Inicio Navegação -->
+        <div class="container"> <!-- Inicio container -->
           <!-- Logo da navagação -->
           <a href="#" class="navbar-brand">
-            <img src="img/logo.png" width="142"></a>
-
-          <!-- Button Hamburger -->
+            <img src="img/logo.png" width="142">
+          </a>
+          <!-- Button Hamburger para dispositivos menores -->
           <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
             <span class="navbar-toggler-icon"></span>
           </button>
-
           <!-- Menu Navegação -->
           <div class="collapse navbar-collapse" id="nav-principal">
             <ul class="navbar-nav ml-auto">
@@ -41,48 +37,91 @@
               <li class="nav-item"> <a class="btn btn-outline-light ml-4">Entrar</a> </li>
             </ul>
           </div>
-        </div>
-      </nav>
-    </header>
+        </div> <!-- Fim container -->
+      </nav> <!-- Fim Navegação -->
+    </header> <!-- Fim cabeçalho -->
 
-    <section id="home">
+    <section id="home"> <!-- Inicio seção home -->
+      <div class="container"> <!-- Inicio container -->
+        <div class="row"> <!-- Inicio row -->
+
+          <div class="col-md-6 d-flex"> <!-- Inicio Primeira col-6 -->
+            <div class="align-self-center"> <!-- Inicio align center -->
+              <h1 class="display-4">Suas Contas, Desconplicadas</h1>
+              <p class="lead">
+                Usado por mais de 1 milhão de pessoas, o Finans é uma ferramenta online
+                que facilita sua vida financeira
+              </p>
+
+              <form class="mt-4 mb-4"> <!-- Inicio Form -->
+                <div class="input-group input-group-lg">
+                 <input class="form-control" type="email" placeholder="Seu e-mail">
+                  <div class="input-group-append">
+                    <button class="btn btn-primary" type="button">Cadastre-se</button>
+                  </div>
+                </div>
+              </form> <!-- Fim Form-->
+
+              <p> Disponivel para
+                <a href="" class="btn btn-outline-light">
+                  <i class="fab fa-android fa-lg"></i>
+                </a>
+                <a href="" class="btn btn-outline-light">
+                  <i class="fab fa-apple fa-lg"></i>
+                </a>
+              </p>
+            </div> <!-- Fim align center -->
+          </div> <!-- Fim Primeira col-6 -->
+
+          <div class="col-md-6 d-none d-md-block"> <!-- Inicio Segunda col-6-->
+            <img src="img/capa-mulher.png">
+          </div> <!-- Fim Segunda col-6 -->
+        </div> <!-- Fom row -->
+      </div> <!-- Fim container-->
+    </section> <!-- Fim seção home -->
+
+    <section class="caixa"> <!-- Inicio seção saiba -->
+      <div class="container"> <!-- Inicio container -->
+        <div class="row"> <!-- Inicio row -->
+
+          <div class="col-md-6 d-flex">  <!-- Inicio primeira 6 colunas-->
+            <div class="align-self-center">
+              <h2 class="font-weight-bold">Saiba para onde vai seu dinheiro</h2>
+              <p>
+                Com o finans, você categoriza todos os seus lançamentos.
+                Com gráficos simples, você sabe de onde vem e para onde vai o seu dinheiro.
+              </p>
+              <a href="" class="btn btn-primary">Veja mais</a>
+            </div>
+          </div> <!-- Fim primeira 6 colunas -->
+
+          <div class="col-md-6"> <!-- Inicio segunda 6 colunas-->
+            <img src="img/saiba.png" class="img-fluid">
+          </div> <!-- Fim segunda 6 colunas -->
+
+        </div> <!-- Fim row -->
+      </div> <!-- Fim container -->
+    </section> <!-- Fim secão saiba -->
+
+    <section class="caixa">
       <div class="container">
-         <div class="row">
-
+        <div class="row">
+          <div class="col-md-6">
+            <img src="img/juros.png" class="img-fluid">
+          </div>
           <div class="col-md-6 d-flex">
             <div class="align-self-center">
-            <h1 class="display-4">Suas Contas, Desconplicadas</h1>
-            <p class="lead">Usado por mais de 1 milhão de pessoas, o Finans é uma ferramenta online
-             que facilita sua vida financeira</p>
-
-            <form class="mt-4 mb-4">
-            <div class="input-group input-group-lg">
-             <input class="form-control" type="email" placeholder="Seu e-mail">
-              <div class="input-group-append">
-                <button class="btn btn-primary" type="button">Cadastre-se</button>
-              </div>
+              <h2 class="font-weight-bold">Pare de pagar juros e economize</h2>
+              <p>
+                Manter as contas em dias é sempre um problema? O organizze avisa você:
+                receba alertas de contas a pagar e a receber!
+              </p>
+              <a href="" class="btn btn-primary">Veja mais</a>
             </div>
-            </form>
-
-            <p> Disponivel para
-              <a href="" class="btn btn-outline-light">
-                <i class="fab fa-android fa-lg"></i>
-              </a>
-              <a href="" class="btn btn-outline-light">
-                <i class="fab fa-apple fa-lg"></i>
-              </a>
-            </p>
-            </div>
-           </div>
-
-           <div class="col-md-6 d-none d-md-block">
-             <img src="img/capa-mulher.png">
-           </div>
           </div>
+        </div>
       </div>
-
     </section>
-
 
 
     <!-- JavaScript (Opcional) -->
